@@ -1,0 +1,27 @@
+.container{
+  display: flex;
+  flex-direction: row;
+  /* 반대로 정렬하려면
+  flex-direction: column-reverse;
+  */
+  /* justify-content: center;
+  align-items: center; */
+  height:80vh;
+  background-color: gray;
+}
+
+.item{
+  /* flex-grow: 1;
+  flex-basis: 0; */
+  flex: 1; /*축약형으로 쓰면 basis가 자동으로 0으로 댐*/
+  /* padding: 2em; */
+  border: 3px solid black;
+  background-color: white;
+  font-size: 3rem;
+}
+/*각 item별로 비율 조정하기*/
+/* .item:nth-child(1){ flex-grow: 1;}
+.item:nth-child(2){ flex-grow: 5;}
+.item:nth-child(3){ flex-grow: 2;}
+.item:nth-child(4){ flex-grow: 3;}
+.item:nth-child(5){ flex-grow: 1;} */
