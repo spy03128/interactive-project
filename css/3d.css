@@ -1,0 +1,27 @@
+.card{
+  width:100px;
+  height: 150px;
+  background-color: red;
+  border-radius: 0.5em;
+  /* em : 현재 div font-size 기준
+    rem : html font-size 기준 */
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1em;
+  /*균일하게 3D효과를 주길 원하면 해당되는 요소에다가 perspective 값 주기*/
+  transform: perspective(500px) rotateY(45deg);
+}
+
+.world{
+  width: 80vw;
+  height: 60vh;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*원근감 속성*/
+  /* perspective: 500px; */
+
+}
