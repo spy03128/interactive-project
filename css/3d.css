@@ -20,7 +20,8 @@
   transition: 1s;
   /*3D 효과를 단계를 거쳐 주길 위함*/
   transform-style: preserve-3d;
-  transform-origin: left;
+  /*회전이 되는 기준점 설정*/
+  /* transform-origin: left; */
 }
 
 .card-side{
@@ -37,7 +38,9 @@
   width: 100%;
   height: 100%;
   /*뒷면이 안보이게 설정*/
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+
 }
 
 .card-side-front{
