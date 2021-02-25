@@ -6,7 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Interactive Web</title>
     <link rel="stylesheet" href="css/dom.css">
-    
+    <!-- <script>
+      // window.addEventListener('load',function(){
+      window.addEventListener('DOMContentLoaded',function(){
+        const ilbuni = document.querySelector('.ilbuni.c');
+
+        function clickInbuntilHandler(){
+          ilbuni.classList.toggle('special');
+        }
+
+        ilbuni.addEventListener('click',clickInbuntilHandler);
+      });
+    </script> -->
+    <!-- 시간이 오래걸림, 귀찮음 , 맨 아래줄에 적으면 로드될때까지 기다릴 필요가 없음 -->
 </head>
 <body>
     <div class="characters">
@@ -25,7 +37,16 @@
     </div>
 
     <script>
-        // 직접 타이핑 해보세요
+      //전역변수 자바스크립트에서는 전역변수를 최소화 해야함
+    (function () {
+        const ilbuni = document.querySelector('.ilbuni.c');
+
+        function clickInbuntilHandler(){
+          ilbuni.classList.toggle('special');
+        }
+
+        ilbuni.addEventListener('click',clickInbuntilHandler);
+      }) ();
     </script>
 </body>
 </html>
