@@ -18,3 +18,6 @@ img {
 .special {
     border: 10px dashed red; /* dashed 은 점선 */
 }
+.plus{
+  transform: scale(2);
+}
