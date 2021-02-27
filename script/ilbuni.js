@@ -14,4 +14,9 @@ window.addEventListener('DOMContentLoaded',function(){
   }
   ilbuni2.addEventListener('mousedown',clickHandler);
 
+  const ilbuni3 = document.querySelector('.ilbuni.b');
+  function keydownHandler(){
+    ilbuni3.classList.toggle('key');
+  }
+  ilbuni3.addEventListener('mouseover',keydownHandler);
 });

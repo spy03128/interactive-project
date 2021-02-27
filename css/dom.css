@@ -21,3 +21,6 @@ img {
 .plus{
   transform: scale(2);
 }
+.key{
+  transform: rotate(15deg);
+}
