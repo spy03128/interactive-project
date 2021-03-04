@@ -28,17 +28,17 @@
   left: 5%;
   bottom: 5%;
   background-image: url("../image/ilbuni_0.png");
-  animation-duration: 2s;
+  animation-duration: 4s;
 }
 .ilbuni:nth-child(2) {
   left: 10%;
   bottom: 3%;
   background-image: url("../image/ilbuni_1.png");
-  animation-duration: 3s;
+  animation-duration: 5s;
 }
 .ilbuni:nth-child(3) {
   left: 7%;
   bottom: 10%;
   background-image: url("../image/ilbuni_2.png");
-  animation-duration: 4s;
+  animation-duration: 6s;
 }
