@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu {
+  position: relative;
+  top: 200px;
+  display: flex;
+  background: rgb(0, 0, 0, 0.1);
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 700px;
+  height: 200px;
+}
+.menu-btn {
+  display: flex;
+  position: relative;
+  background: yellow;
+  border-radius: 10px;
+  border: 3px solid white;
+  width: 150px;
+  height: 70px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 20px 0px 20px;
+  justify-content: center;
+  align-items: center;
+}
+span {
+  font-weight: bold;
+  padding: 0px 5px 0px 5px;
+  font-size: 13px;
+}
+img {
+  width: 20px;
+  height: 30px;
+}
+.btn-label {
+  text-shadow: rgba(255, 255, 255, 1) 0 1px 0;
+  /* pointer-events: none; */
+}
+.icon {
+  /* pointer-events: none; */
+}
