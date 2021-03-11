@@ -6,6 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
     <style>
+      @keyframes ball-ani {
+        0% {
+          transform: translate(0, 0);
+        }
+        100% {
+          transform: translate(200px, 200px);
+        }
+      }
       .ball {
         position: absolute;
         left: 0;
@@ -16,9 +24,11 @@
         background: red;
         border-radius: 50%;
         transition: 1s;
+        /* animation: ball-ani 1s 3 alternate forwards; */
       }
       .ball.end {
-        background: dodgerblue;
+        /* background: dodgerblue; */
+        border: 5px solid dodgerblue;
       }
     </style>
   </head>
@@ -27,15 +37,25 @@
     <script>
       const ballElem = document.querySelector(".ball");
 
-      window.addEventListener("click", function(e) {
-        ballElem.style.transform =
-          "translate(" + e.clientX + "px, " + e.clientY + "px)";
+      // window.addEventListener("click", function(e) {
+      //   ballElem.style.transform =
+      //     "translate(" + e.clientX + "px, " + e.clientY + "px)";
+      // });
+      //
+      // ballElem.addEventListener("transitionend", function() {
+      //   ballElem.classList.add("end");
+      //   console.log(e.elapsedtime);
+      //   console.log(e.propertyName);
+      ballElem.addEventListener("click", function() {
+        ballElem.style.animation = " ball-ani 1s 3 alternate forwards";
       });
 
-      ballElem.addEventListener("transitionend", function() {
+      ballElem.addEventListener("animationend", function() {
         ballElem.classList.add("end");
-        console.log(e.elapsedtime);
-        console.log(e.propertyName);
+      });
+
+      ballElem.addEventListener("animationinteration", function() {
+        console.log("반복");
       });
     </script>
   </body>
