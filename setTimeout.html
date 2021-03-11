@@ -21,12 +21,23 @@
     //   console.log("setTimeout!!")
     // } ,1000);
 
-    timeId = setInterval(function() {
-      console.log("setTimeout!!")
-    },1000);
+    // timeId = setInterval(function() {
+    //   console.log("setTimeout!!")
+    // },1000);
+    function sample() {
+      console.log("sample!!");
+
+      timeId =  requestAnimationFrame(sample);
+    }
+
+    sample();
+
+    // btn.addEventListener('click', function(){
+    //       clearTimeout(timeId);
+    // })
 
     btn.addEventListener('click', function(){
-          clearTimeout(timeId);
+          cancelAnimationFrame(timeId);
     })
   </script>
 </html>
