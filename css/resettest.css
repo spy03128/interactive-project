@@ -1,0 +1,83 @@
+
+.box-container{
+  display: flex;
+}
+.box{
+  width:100px;
+  height: 100px;
+  background-color: rgba(255, 255, 0, 0.7);
+  border: 2px solid black;
+  transition: 2s;
+}
+.box:hover{
+  width: 200px;
+  background-color: red;
+  /* transform:scale(2) rotate(15deg); */
+  /* transform:skewX(30deg); */
+  /* transform:skewY(30deg); */
+  /* transform: translate(30px, 10px); */
+  /* transform: translateX(30px); */
+  /* transform: translateY(10px); */
+  /* transform:scale(1.7); */
+  /* transform-origin: right bottom; */
+  /* transform-origin: 0% 0%; */
+}
+
+@keyframes sample-ani {
+  0%{
+    transform:translate(0,0);
+  }
+  50%{
+    transform: translate(300px, 0);
+    background-color: red;
+  }
+  100%{
+    transform: translate(300px, 400px);
+  }
+}
+
+
+.box2{
+  width: 100px;
+  height:100px;
+  background-color: #fff000;
+  border: 2px solid black;
+  display: flex;
+  align-items: center; /*세로 가운데 정렬*/
+  justify-content: center; /*가로 가운데 정렬*/
+
+  /* animation: sample-ani 3s linear infinite alternate;  */
+  /*linear는 등속도를 뜻함
+  alternate는 반복해서 반대방향으로 가는것을 뜻함
+  reverse는 반대방에서 시작*/
+
+  animation: sample-ani 3s linear forwards;
+  /*forwards 는 처음위치로 가지 않고 100% 시점에서 끝나는 것 */
+}
+
+.box2:hover{
+  animation-play-state: paused;
+}
+
+@keyframes spaceship-ani {
+  0%{
+
+  }
+  100%{
+    background-position: -2550px,0;
+  }
+}
+
+.spaceship{
+  height: 150px;
+  width: 150px;
+  background: url('../image/sprite_spaceship.png') no-repeat 0 0 / auto 150px;
+  animation: spaceship-ani 1s infinite steps(17);
+  /*step는 몇번에 나누어서 150px만큼 이동할 것인가 */
+  margin: 20px 20px 20px 20px;
+}
+
+.back{
+  background-color: black;
+  height: 400px;
+}
