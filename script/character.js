@@ -33,3 +33,7 @@ function Character(info) {
   document.querySelector(".stage").appendChild(this.mainElem);
   this.mainElem.style.left = info.xPos + "%";
 }
+
+Character.prototype{
+  constructor: Character,
+}
