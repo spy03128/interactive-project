@@ -27,6 +27,14 @@
   });
 
   window.addEventListener("resize", resizeHandler);
-  // 처음에한번실행 s
+
+  stageElem.addEventListener("click", function(e) {
+    //생성되게, 생성자 호출
+    new Character({
+      xPos: (e.clientX / window.innerWidth) * 100
+    });
+  });
+
+  // 처음에한번실행
   resizeHandler();
 })();
