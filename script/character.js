@@ -33,6 +33,8 @@ function Character(info) {
   document.querySelector(".stage").appendChild(this.mainElem);
   this.mainElem.style.left = info.xPos + "%";
   this.scrollState = false; //스크롤중인지 아닌지를 체크하는 변수
+  //바로이전 스크롤 위치
+  this.lastScrollTop = 0;
   this.init();
 }
 
@@ -53,6 +55,15 @@ Character.prototype = {
         self.scrollState = false;
         self.mainElem.classList.remove("running");
       }, 500);
+
+      //이전 스크롤 위치와 현재 스크롤 위치를 비교
+      if (self.lastScrollTop > pageYOffset) {
+        self.mainElem.setAttribute("data-direction", "backward");
+      } else {
+        self.mainElem.setAttribute("data-direction", "forward");
+      }
+
+      self.lastScrollTop = pageYOffset;
     });
   }
 };
