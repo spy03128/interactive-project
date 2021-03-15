@@ -26,6 +26,10 @@ body {
   color: #555;
   background: #fff000;
   height: 500vw;
+  transition: 0.5s;
+}
+body[data-char="ragirl"] {
+  background: #ff7200;
 }
 .progress-bar-con {
   position: fixed;

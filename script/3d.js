@@ -2,6 +2,7 @@
   const houseElem = document.querySelector(".house");
   const barElem = document.querySelector(".progress-bar");
   const stageElem = document.querySelector(".stage");
+  const selectCharacterElem = document.querySelector(".select-character");
   const mousePos = { x: 0, y: 0 };
   let maxScrollValue = 0;
 
@@ -36,6 +37,11 @@
     });
   });
 
+  selectCharacterElem.addEventListener("click", function(e) {
+    // console.log(e.target.getAttribute("data-char"));
+    const value = e.target.getAttribute("data-char");
+    document.body.setAttribute("data-char", value);
+  });
   // 처음에한번실행
   resizeHandler();
 })();
