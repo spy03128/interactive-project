@@ -37,7 +37,7 @@ function Character(info) {
   //바로이전 스크롤 위치
   this.lastScrollTop = 0;
   //캐릭터 스피드
-  this.speed = 0.5;
+  this.speed = info.speed;
   //캐릭터 방향
   this.direction;
   //좌우 이동 중인지 아닌지 판별

@@ -31,7 +31,8 @@
   stageElem.addEventListener("click", function(e) {
     //생성되게, 생성자 호출
     new Character({
-      xPos: (e.clientX / window.innerWidth) * 100
+      xPos: (e.clientX / window.innerWidth) * 100,
+      speed: Math.random() * 0.5 + 0.2
     });
   });
 
