@@ -37,7 +37,6 @@
 * 마우스 위치에 따라 보는 시점이 달라진다.
 * 스크롤에 따라 웹사이트 상단 검정색 bar에 파란색으로 채워진다.
 * 우측 상단에 다른 캐릭터를 선택하면 웹사이트 디자인이 모두 변경된다.
-![3d_2](https://user-images.githubusercontent.com/57143818/111493407-dbe95e00-8780-11eb-8f88-49669889ff3d.png)
-
+![3d_2](https://user-images.githubusercontent.com/57143818/111494402-c58fd200-8781-11eb-903c-3475ce7aa71f.png)
 
 
