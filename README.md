@@ -38,5 +38,6 @@
 * 스크롤에 따라 웹사이트 상단 검정색 bar에 파란색으로 채워진다.
 * 우측 상단에 다른 캐릭터를 선택하면 웹사이트 디자인이 모두 변경된다.
 ![3d_2](https://user-images.githubusercontent.com/57143818/111494402-c58fd200-8781-11eb-903c-3475ce7aa71f.png)
+<img src="https://user-images.githubusercontent.com/57143818/111494402-c58fd200-8781-11eb-903c-3475ce7aa71f.png" width="50%">
 
 
