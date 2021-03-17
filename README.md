@@ -29,6 +29,7 @@
 * 화면을 선택하면 마우스 x 위치에 캐릭터가 생성된다
 * 스크롤을 아래로 이동하면 캐릭터가 뒤로 이동하면서 공간도 이동된다.
 ![3d_back](https://user-images.githubusercontent.com/57143818/111493628-17842800-8781-11eb-8410-c7ef98372b90.png)
+<img src="https://user-images.githubusercontent.com/57143818/111493628-17842800-8781-11eb-8410-c7ef98372b90.png" width="40%">
 * 스크롤을 위로 이동하면 캐릭터가 앞으로 이동한다
 * 스크롤을 왼쪽으로 이동하면 캐릭터가 왼쪽으로 이동한다. 이때 화면 밖으로 캐릭터가 나가지 않는다.
 ![3d_left](https://user-images.githubusercontent.com/57143818/111493632-18b55500-8781-11eb-8121-1586fe71b544.png)
