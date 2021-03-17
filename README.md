@@ -28,16 +28,16 @@
 ##### 프로젝트 동작 기능
 * 화면을 선택하면 마우스 x 위치에 캐릭터가 생성된다
 * 스크롤을 아래로 이동하면 캐릭터가 뒤로 이동하면서 공간도 이동된다.
-![3d_back](https://user-images.githubusercontent.com/57143818/111493628-17842800-8781-11eb-8410-c7ef98372b90.png)
-<img src="https://user-images.githubusercontent.com/57143818/111493628-17842800-8781-11eb-8410-c7ef98372b90.png" width="40%">
+<img src="https://user-images.githubusercontent.com/57143818/111493628-17842800-8781-11eb-8410-c7ef98372b90.png" width="50%">
 * 스크롤을 위로 이동하면 캐릭터가 앞으로 이동한다
 * 스크롤을 왼쪽으로 이동하면 캐릭터가 왼쪽으로 이동한다. 이때 화면 밖으로 캐릭터가 나가지 않는다.
-![3d_left](https://user-images.githubusercontent.com/57143818/111493632-18b55500-8781-11eb-8121-1586fe71b544.png)
+<img src="https://user-images.githubusercontent.com/57143818/111493632-18b55500-8781-11eb-8121-1586fe71b544.png" width="50%">
 * 스크롤을 오른쪽으로 이동하면 캐릭터가 오른쪽으로 이동한다. 이때 화면 밖으로 캐릭터가 나가지 않는다.
-![3d_right](https://user-images.githubusercontent.com/57143818/111493634-18b55500-8781-11eb-95c3-4b26a103926c.png)
+<img src="https://user-images.githubusercontent.com/57143818/111493634-18b55500-8781-11eb-95c3-4b26a103926c.png" width="50%">
+* 마우스 위치에 따라 보는 시점이 달라진다.
 * 스크롤에 따라 웹사이트 상단 검정색 bar에 파란색으로 채워진다.
 * 우측 상단에 다른 캐릭터를 선택하면 웹사이트 디자인이 모두 변경된다.
 ![3d_2](https://user-images.githubusercontent.com/57143818/111493407-dbe95e00-8780-11eb-8f88-49669889ff3d.png)
-* 마우스 위치에 따라 보는 시점이 달라진다.
+
 
 
