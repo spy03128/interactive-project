@@ -24,6 +24,7 @@
 ------------
 #### 3D 스크롤 Project
 ![3d](https://user-images.githubusercontent.com/57143818/111492490-0edf2200-8780-11eb-8287-f7589f56f02c.png)
+<img src="https://user-images.githubusercontent.com/57143818/111494402-c58fd200-8781-11eb-903c-3475ce7aa71f.png" width="100%">
 ------------
 ##### 프로젝트 동작 기능
 * 화면을 선택하면 마우스 x 위치에 캐릭터가 생성된다
@@ -37,7 +38,5 @@
 * 마우스 위치에 따라 보는 시점이 달라진다.
 * 스크롤에 따라 웹사이트 상단 검정색 bar에 파란색으로 채워진다.
 * 우측 상단에 다른 캐릭터를 선택하면 웹사이트 디자인이 모두 변경된다.
-------------
-<img src="https://user-images.githubusercontent.com/57143818/111494402-c58fd200-8781-11eb-903c-3475ce7aa71f.png" width="100%">
 
 
